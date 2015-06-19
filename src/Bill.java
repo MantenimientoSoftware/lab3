@@ -30,5 +30,9 @@ public class Bill {
     public void setDiscounts(int[] discounts) {
         this.discounts = discounts;
     }
-
+    
+    public void calculateTotalCosto(){
+        return this.totalCost;
+        //falta implementar el descuento
+    }
 }
