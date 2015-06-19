@@ -63,4 +63,9 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public boolean verifylogin(String uname , String pass){
+        if(uname.equals(this.username)&&pass.equals(this.password))return true;
+        return false;
+    }
 }
